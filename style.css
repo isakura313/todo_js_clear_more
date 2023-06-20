@@ -1,0 +1,44 @@
+.data {
+  text-align: center;
+}
+
+#input {
+  width: 200px;
+}
+
+.center {
+  width: 300px;
+  border-style: double;
+  display: block;
+  margin: 20px auto;
+  /* background-color: antiquewhite; */
+}
+
+#app {
+  /* text-align: left; */
+  padding-left: 10px;
+  /* background-color: rgb(196, 181, 162); */
+
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+/* #button {
+  text-align: right;
+} */
+
+.deleteButton {
+  background-color: rgb(80, 158, 103);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.list {
+  text-align: right;
+  padding: 5px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
